@@ -1,0 +1,15 @@
+target/
+.mvn/
+.idea/
+
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.project
+.classpath
+.zip
+.7z
