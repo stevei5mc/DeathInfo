@@ -73,8 +73,8 @@
                             </includes>
                             <replacements>
                                 <replacement>
-                                    <token>version: ".*"</token>
-                                    <value>version: "${project.version}"</value>
+                                    <token>version: '.*'</token>
+                                    <value>version: '${project.version}'</value>
                                 </replacement>
                             </replacements>
                             <encoding>${maven.compiler.encoding}</encoding>
