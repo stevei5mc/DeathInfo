@@ -2,6 +2,7 @@ package cn.stevei5mc.deathinfo;
 
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.Server;
+import cn.stevei5mc.deathinfo.utils.ConfigUtils;
 
 public class DeathInfo extends PluginBase {
     private static DeathInfo instance;
@@ -12,6 +13,9 @@ public class DeathInfo extends PluginBase {
 
     public void onLoad() {
         instance = this;
+        ConfigUtils cu = ConfigUtils.getInstance();
+        cu.saveConfigFiles();
+        cu.loadConfigInfo();
     }
 
     public void onEnable() {
