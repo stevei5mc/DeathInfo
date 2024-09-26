@@ -3,3 +3,8 @@ main: cn.stevei5mc.deathinfo.DeathInfo
 version: '1.0.0-beta1'
 author: stevei5mc
 api: ["1.0.14"]
+
+permissions:
+  deathinfo.player.isvip:
+    description: "test"
+    default: op
