@@ -42,7 +42,7 @@ public class ConfigUtils {
 
     public void saveConfigFiles() {
         main.getDataFolder().mkdirs();
-        main.saveDefaultConfig();
+        // main.saveDefaultConfig();
         // main.saveResource("type/contact.yml",false);
         main.saveResource("type/default.yml",false);
         // main.saveResource("type/drowning.yml",false);
@@ -56,7 +56,7 @@ public class ConfigUtils {
     }
 
     public void loadConfigInfo() {
-        this.config = new Config(main.getDataFolder() + "/config.yml", Config.YAML);
+        // this.config = new Config(main.getDataFolder() + "/config.yml", Config.YAML);
         // this.typeContact = new Config(main.getDataFolder() + "/type/contact.yml", Config.YAML);
         this.typeDefault = new Config(main.getDataFolder() + "/type/default.yml", Config.YAML);
         // this.typeDrowning = new Config(main.getDataFolder() + "/type/drowning.yml", Config.YAML);
