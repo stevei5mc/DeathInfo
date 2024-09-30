@@ -1,0 +1,13 @@
+default-message:
+  contact:
+    anvil: "%1% 被掉落的铁砧压扁了"
+    cactus: "%1% 尝试拥抱仙人掌"
+  default: "%1% 不明不白的离开了这个世界"
+  drowning:
+  fall:
+  fire:
+  hunger:
+  lava:
+  lightning: "%1% 被闪电击中"
+  magma:
+  void: "%1% 掉出了这个世界"
