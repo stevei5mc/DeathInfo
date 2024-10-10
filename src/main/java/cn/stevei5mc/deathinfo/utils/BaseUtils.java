@@ -28,6 +28,14 @@ public class BaseUtils {
     }
 
     public void playMessage(String message,String deathPlayer,Boolean multiLanguage) {
+        playMessage(message,deathPlayer,"",multiLanguage);
+    }
+
+    public void playMessage(String message,String deathPlayer,String killer) {
+        playMessage(message,deathPlayer,killer,false);
+    }
+
+    public void playMessage(String message,String deathPlayer,String killer,Boolean multiLanguage) {
         if (multiLanguage) {
 
         } else {
