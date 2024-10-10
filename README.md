@@ -33,3 +33,38 @@ message:
   - "%1% 带着诸多疑惑就那么离开了这个世界"
   - "%1% 就这么不明不白的被抬走啦&deathinfo.player.isvip"
 ```
+
+### **语言代码可见** 
+- 在[cn.nukkit.lang.LangCode](https://github.com/MemoriesOfTime/Nukkit-MOT/blob/master/src/main/java/cn/nukkit/lang/LangCode.java)可查看相关信息
+
+| LangCode | 语言 | 地区 |
+|---------|------|------|
+| en_US   | English | United States |
+| en_GB   | English | United Kingdom |
+| de_DE   | Deutsch | Deutschland |
+| es_ES   | Español | España |
+| es_MX   | Español | México |
+| fr_FR   | Français | France |
+| fr_CA   | Français | Canada |
+| it_IT   | Italiano | Italia |
+| ja_JP   | 日本語 | 日本 |
+| ko_KR   | 한국어 | 대한민국 |
+| pt_BR   | Português | Brasil |
+| pt_PT   | Português | Portugal |
+| ru_RU   | Русский | Россия |
+| zh_CN   | 中文(简体) | 中国 |
+| zh_TW   | 中文(繁體) | 中国台湾 |
+| nl_NL   | Nederlands | Nederland |
+| bg_BG   | Български | България |
+| cs_CZ   | Čeština | Česko |
+| da_DK   | Dansk | Danmark |
+| el_GR   | Ελληνικά | Ελλάδα |
+| fi_FI   | Suomi | Suomi |
+| hu_HU   | Magyar | Magyarország |
+| id_ID   | Indonesia | Indonesia |
+| nb_NO   | Norsk bokmål | Norge |
+| pl_PL   | Polski | Polska |
+| sk_SK   | Slovenčina | Slovensko |
+| sv_SE   | Svenska | Sverige |
+| tr_TR   | Türkçe | Türkiye |
+| uk_UA   | Українська | Україна |

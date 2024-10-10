@@ -17,6 +17,9 @@ public class DeathInfo extends PluginBase {
         "bg_BG", "cs_CZ","da_DK","de_DE","el_GR","en_GB","en_US","es_ES","es_MX","fi_FI","fr_CA","fr_FR","hu_HU","id_ID","it_IT",
         "ja_JP","ko_KR","nb_NO","nl_NL","pl_PL","pt_BR","pt_PT","ru_RU","sk_SK","sv_SE","tr_TR","uk_UA","zh_CN","zh_TW"
     );
+    private List<String> reasonType = Arrays.asList(
+        /* "contact", */ "default"/* ,"drowning","fall","fire","hunger","lava","lightning","magma","void" */
+    );
 
     public static DeathInfo getInstance() {
         return instance;
@@ -49,16 +52,9 @@ public class DeathInfo extends PluginBase {
     public void saveConfigFiles() {
         getDataFolder().mkdirs();
         saveDefaultConfig();
-        // main.saveResource("type/contact.yml",false);
-        saveResource("type/default.yml",false);
-        // main.saveResource("type/drowning.yml",false);
-        // main.saveResource("type/fall.yml",false);
-        // main.saveResource("type/fire.yml",false);
-        // main.saveResource("type/hunger.yml",false);
-        // main.saveResource("type/lava.yml",false);
-        // main.saveResource("type/lightning.yml",false);
-        // main.saveResource("type/magma.yml",false);
-        // main.saveResource("type/void.yml",false);
+        for(String type: reasonType){
+            saveResource("type/"+type+".yml",false);
+        }
         for(String lang: languages){
             saveResource("language/"+lang+".yml",false);
         }
